@@ -22,7 +22,7 @@ export default class Inspector extends Component {
 						label={ __( 'Inner Width (px)', 'editor-blocks' ) }
 						onChange={ ( maxWidth ) => setAttributes( { maxWidth } ) }
 						min={ 0 }
-						max={ 1040 }
+						max={ 1200 }
 						step={ 10 }
 						allowReset={ true }
 					/>
