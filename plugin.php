@@ -3,13 +3,7 @@
  * Plugin Name: Editor Blocks for Gutenberg
  * Plugin URI: https://wordpress.org/plugins/editor-blocks
  * Description: A unique collection of Gutenberg blocks.
- * Author: editorblocks
- * Author URI: https://editorblockswp.com
- * Version: 1.2.0
- * License: GPL2+
- * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- *
- * @package editor-blocks
+ * Author: editorblocks + errand
  */
 
 // Exit if accessed directly.
