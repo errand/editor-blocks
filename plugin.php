@@ -53,6 +53,16 @@ add_filter(
 	2
 );
 
+
+add_filter('site_transient_update_plugins', function($value) {
+	if( ! is_object($value) ) return $value;
+
+	// удаляем текущий плагин из списка
+	unset( $value->response[ plugin_basename(__FILE__) ] );
+
+	return $value;
+});
+
 /**
  * Block Initializer.
  */
